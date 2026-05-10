@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+
+body {
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+}
+
+/* Subtle focus ring that works in light mode */
+:focus-visible { outline: 2px solid theme('colors.indigo.500'); outline-offset: 2px; }

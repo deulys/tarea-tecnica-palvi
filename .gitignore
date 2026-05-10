@@ -1,0 +1,16 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.env
+.env.local
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.log
+
+# We don't track the dataset itself — keep the repo light and let the
+# reviewer drop their own metrics.json into public/.
+public/metrics.json
+.gitkeep
