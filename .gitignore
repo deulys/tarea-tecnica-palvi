@@ -10,7 +10,4 @@ dist-ssr
 .idea
 *.log
 
-# We don't track the dataset itself — keep the repo light and let the
-# reviewer drop their own metrics.json into public/.
-public/metrics.json
 .gitkeep

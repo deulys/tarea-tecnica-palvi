@@ -6,12 +6,16 @@ App pensada para que el Jefe de Ventas la abra en la mañana y, en menos de un m
 
 ```bash
 npm install
-npm run setup ~/Downloads/metrics.json                          # Mac / Linux
-npm run setup C:\Users\TuUsuario\Downloads\metrics.json         # Windows
-npm run dev                                                     # Vite imprime el URL en la terminal
+npm run dev    # Vite imprime el URL en la terminal
 ```
 
-`npm run setup` sin argumento busca `metrics.json` en `~/Downloads`, `~/Desktop` o la raíz del repo.
+El archivo `metrics.json` ya viene en `public/` para que solo haga falta clonar e instalar. Si en algún momento se quiere reemplazar el dataset por otro:
+
+```bash
+npm run setup /ruta/a/otro/metrics.json
+```
+
+Sin argumento, `npm run setup` busca `metrics.json` en `~/Downloads`, `~/Desktop` o la raíz del repo.
 
 ## Decisiones técnicas
 
